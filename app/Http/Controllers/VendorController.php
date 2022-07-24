@@ -34,4 +34,7 @@ class VendorController extends Controller
         Session::flash('error','You dont have any permission to add catagory data! Please login as admin');
         return redirect('list');
     }
+    public function get_data(){
+        
+    }
 }
