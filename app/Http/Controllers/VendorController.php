@@ -38,6 +38,7 @@ class VendorController extends Controller
 
     }
     public function again_get_data(){
-        
+        $data['page_title'] = 'List of Tatto ';
+        return view('vendor/list');
     }
 }
