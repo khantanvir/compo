@@ -35,6 +35,9 @@ class VendorController extends Controller
         return redirect('list');
     }
     public function get_data(){
+
+    }
+    public function again_get_data(){
         
     }
 }
